@@ -1,0 +1,90 @@
+.LoginID{
+  margin-right: 300;
+}
+
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+
+        /* Container for the user data */
+        .user-data {
+            max-width: 1000px;
+            margin: 20 ;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styling */
+        .user-data h3 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        /* Table headers */
+        th {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        /* Table data cells */
+        td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Alternate row color for better readability */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hover effect for table rows */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Add some space between the table and the bottom */
+        table {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            th, td {
+                font-size: 12px;
+                padding: 8px;
+            }
+
+            .user-data {
+                padding: 10px;
+                margin-top: 50px;
+            }
+        }
+   
+  
